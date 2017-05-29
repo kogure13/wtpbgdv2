@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;    
+    background-color: #676767;    
+    min-height: 100%;
+}
+
+.wtp-header-strip {    
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #73c3c8;
+    display: block;
+}
+.wtp-header-banner {
+    background-color: #fff;
+    padding: 10px;
+    width: auto;
+    border-bottom: 3px solid #73abd8;
+}
+.wtp-header-logo img{
+    height: 64px;
+    margin-bottom: 0px;
+}
+.wtp-main {
+    margin-top: 0;
+    padding: 5px;    
+}
+
+.error {
+    color: #df382c;
+    size: 12pt;
+}
+.flexigrid div.fbutton .add {
+    background: url('../images/add.png') no-repeat center left;
+}
+.flexigrid div.fbutton .edit {
+    background: url('../images/edit.png') no-repeat center left;
+}
+.flexigrid div.fbutton .delete {
+    background: url('../images/close.png') no-repeat center left;    
+}
+
+footer{
+    margin: 0px;
+    padding: 10px;
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #d2e3ec;
+    background-color: #f3f3f3;
+    font-size: 12px;
+}
